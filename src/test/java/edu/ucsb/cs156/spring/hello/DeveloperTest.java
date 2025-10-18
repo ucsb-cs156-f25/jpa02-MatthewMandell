@@ -28,7 +28,7 @@ public class DeveloperTest {
     }
     @Test
     public void getGithubId_returns_correct_githubId(){
-        assertEquals("matthewmandell", Developer.getGithubId());
+        assertEquals("MatthewMandell", Developer.getGithubId());
     }
 
     @Test
@@ -39,12 +39,12 @@ public class DeveloperTest {
     @Test
     public void getTeam_returns_team_with_correct_members() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("A"),"Team should contain A");
-        assertTrue(t.getMembers().contains("B"),"Team should contain Grace");
-        assertTrue(t.getMembers().contains("C"),"Team should contain A");
-        assertTrue(t.getMembers().contains("D"),"Team should contain Grace");
-        assertTrue(t.getMembers().contains("E"),"Team should contain A");
-        assertTrue(t.getMembers().contains("F"),"Team should contain Grace");
+        assertTrue(t.getMembers().contains("Sicheng"),"Team should contain S");
+        assertTrue(t.getMembers().contains("Jakinda"),"Team should contain J");
+        assertTrue(t.getMembers().contains("Arman Ehsan"),"Team should contain A");
+        assertTrue(t.getMembers().contains("Yuchao"),"Team should contain Y");
+        assertTrue(t.getMembers().contains("Ian Kento Izuka"),"Team should contain I");
+        assertTrue(t.getMembers().contains("Matt Arthur"),"Team should contain M");
 
         // ... etc
     }
